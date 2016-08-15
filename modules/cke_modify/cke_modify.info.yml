@@ -1,0 +1,7 @@
+name: 'CKE Modify'
+description: 'Modify default settings of the CK Editor'
+type: module
+package: 'Custom'
+core: 8.x
+dependencies:
+  - ckeditor

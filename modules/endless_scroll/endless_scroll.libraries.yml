@@ -1,0 +1,13 @@
+endless.scroll:
+  version: VERSION
+  css:
+    component:
+      css/endless_scroll.css: {}
+  js:
+    js/endless_scroll.js: {}
+    js/endless_scroll_init.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

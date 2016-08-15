@@ -1,0 +1,8 @@
+name: Endless Scroll
+type: module
+description: This module provides a block with an endless scroller
+package: Custom
+version: 1.0
+core: 8.x
+dependencies:
+  - block

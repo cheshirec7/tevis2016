@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_editor_js_settings_alter().
+ */
+function cke_modify_editor_js_settings_alter(array &$settings) {
+    if ($settings['editor']['formats']['full_html']['editor'] == 'ckeditor'){
+        $settings['editor']['formats']['full_html']['editorSettings']['customConfig'] = base_path() . drupal_get_path('module', 'cke_modify') . '/js/ckeditor_config.js';
+    }
+    //Drupal::logger('cke_settings')->notice(print_r($settings));
+}

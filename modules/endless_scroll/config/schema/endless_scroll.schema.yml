@@ -1,0 +1,19 @@
+block.settings.endless_scroll_config:
+  type: block_settings
+  label: 'Endless scroll settings'
+  mapping:
+    width:
+      type: text
+      label: 'Width'
+    height:
+      type: text
+      label: 'Height'
+    steps:
+      type: text
+      label: 'Steps'
+    speed:
+      type: text
+      label: 'Speed'
+    mousestop:
+      type: text
+      label: 'Mousestop'

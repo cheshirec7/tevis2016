@@ -1,0 +1,28 @@
+{% extends "block--bare.html.twig" %}
+{#
+/**
+ * @file
+ * Default theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ *
+ * @ingroup templates
+ */
+#}
+{% block content %}
+    <div id="header_brand">
+        <a id="logo_d" href="{{ path('<front>') }}" title="{{ 'Home'|t }}"><img alt="{{ 'Home'|t }}" src="/img/logo_2016.png" class="img-responsive"></a>
+    </div>
+    <div class="socialicons_top">
+        <a title="Visit the Tevis Store" href="http://teviscup.org/the-tevis-store"><img src="/img/store.png"></a><a title="Twitter" href="http://twitter.com/tevisnews" target="_blank"><img src="/img/twitter.png"></a><a title="Google Group" href="http://groups.google.com/group/teviscup" target="_blank"><img src="/img/google.png"></a><a title="Facebook" href="http://www.facebook.com/pages/Tevis-Cup-Official-100-Mile-One-Day-Western-States-Trail-Ride/172254949465346#!/pages/Tevis-Cup-Official-100-Mile-One-Day-Western-States-Trail-Ride/172254949465346" target="_blank"><img src="/img/facebook.png"></a><a style="margin-left:1px;" href="http://visitor.constantcontact.com/d.jsp?m=1103305118130&amp;p=oi" target="_blank"><img title="Sign up for Tevis e-news" src="/img/email.png"></a>
+    </div>
+    <a class="logo pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+      <img src="/img/brand.png" style="height:43px;" alt="{{ 'Home'|t }}" />
+    </a>
+{% endblock %}
