@@ -1,2 +1,2 @@
 # tevis2016
-[Teviscup.org](http://teviscup.org) built with Drupal 8
+The interesting bits of [teviscup.org](http://teviscup.org), built with Drupal 8
